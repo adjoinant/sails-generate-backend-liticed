@@ -1,0 +1,34 @@
+{
+  "name": "sails-generate-backend-liticed",
+  "version": "0.11.1",
+  "description": "Generate a backend for Sails in literate iced-coffee-script.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "backend",
+    "generator",
+    "sails",
+    "generate",
+    "plugin",
+    "iced-coffee-script",
+    "literate"
+  ],
+  "author": "adjoinant",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": ">=2.4.x",
+    "merge-defaults": ">=0.1.0"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "backend",
+    "behavior": "overrides `sails generate backend`",
+    "sailsVersion": "~0.10.0"
+  }
+}
