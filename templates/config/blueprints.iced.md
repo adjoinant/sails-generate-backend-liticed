@@ -1,6 +1,6 @@
 
-Blueprint API Configuration
-===========================
+# Blueprint API Configuration
+
 (sails.config.blueprints)
 
 These settings are for the global configuration of blueprint routes and
@@ -25,8 +25,7 @@ a model exists with the same name as the controller, Sails will respond with bui
 logic in the form of a JSON API, including support for sort, pagination, and filtering.
 
 
-Action Blueprints
------------------
+## Action Blueprints
 
 Action blueprints speed up the backend development workflow by eliminating the need
 to manually bind routes. When enabled, GET, POST, PUT, and DELETE routes will be
@@ -59,8 +58,8 @@ to GET requests.
 
       actions: true
 
-RESTful Blueprints
-------------------
+## RESTful Blueprints
+
 (`sails.config.blueprints.rest`)
 
 REST blueprints are the automatically generated routes Sails uses to expose

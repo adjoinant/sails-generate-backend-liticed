@@ -1,9 +1,8 @@
 
-400 (Bad Request) Handler
-=========================
+# The 400 (Bad Request) Handler
 
-Usage:
-------
+## Usage:
+
 + `return res.badRequest();`
 + `return res.badRequest(data);`
 + `return res.badRequest(data, 'some/specific/badRequest/view');`
@@ -11,7 +10,6 @@ Usage:
 e.g.:
 `return res.badRequest 'Please choose a valid password (6-12 characters)', 'trial/signup'`
 
-```coffee
     module.exports = badRequest = (data, options) ->
 
       # Get access to `req`, `res`, & `sails`
@@ -55,5 +53,3 @@ e.g.:
           data: data
         , couldNotGuessView = ->
           res.jsonx data
-
-```

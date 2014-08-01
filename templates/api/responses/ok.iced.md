@@ -1,9 +1,8 @@
 
-200 (OK) Response
-=================
+# The 200 (OK) Response
 
-Usage:
-------
+## Usage:
+
 + `return res.ok() `
 + `return res.ok data`
 + `return res.ok data, 'auth/login'`
@@ -11,7 +10,6 @@ Usage:
 param  {Object} data
 param  {String|Object} options
 
-```coffee
     module.exports = sendOK = (data, options) ->
 
       req = @req
@@ -42,5 +40,3 @@ param  {String|Object} options
           data: data
         , couldNotGuessView = ->
           res.jsonx data
-
-```

@@ -1,6 +1,5 @@
 
-View Engine Configuration
-=========================
+#View Engine Configuration
 
 (sails.config.views)
 
@@ -14,8 +13,8 @@ http://links.sailsjs.org/docs/config/views
 
     module.exports.views =
 
-View engine (aka template language)
------------------------------------
+## View engine (aka template language)
+
 to use for your app's *server-side* views
 
 Sails+Express supports all view engines which implement
@@ -55,8 +54,8 @@ to your layout file from `views/` folder. (the file extension, ".ejs", should be
 
       layout: '<%= layout %>'
 
-Using Multiple Layouts with EJS
--------------------------------
+## Using Multiple Layouts with EJS
+
 If you're using the default engine, `ejs`, Sails supports the use of multiple
 `layout` files.  To take advantage of this, before rendering a view, override
 the `layout` local in your controller by setting `res.locals.layout`.

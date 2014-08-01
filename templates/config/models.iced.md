@@ -1,6 +1,6 @@
 
-Default model configuration
-===========================
+# Default model configuration
+
 (sails.config.models)
 
 Unless you override them, the following properties will be included

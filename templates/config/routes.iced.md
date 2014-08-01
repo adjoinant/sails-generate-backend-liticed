@@ -1,6 +1,6 @@
 
-Route Mappings
-==============
+# Route Mappings
+
 (sails.config.routes)
 
 Your routes map URLs to views and controllers.

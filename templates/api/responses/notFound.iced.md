@@ -1,9 +1,8 @@
 
-404 (Not Found) Handler
-=======================
+# The 404 (Not Found) Handler
 
-Usage:
-------
+## Usage:
+
 + `return res.notFound()`
 + `return res.notFound err`
 + `return res.notFound err, 'some/specific/notfound/view'`
@@ -16,7 +15,6 @@ If a request doesn't match any explicit routes (i.e. `config/routes.js`)
 or route blueprints (i.e. "shadow routes", Sails will call `res.notFound()`
 automatically.
 
-```coffee
     module.exports = notFound = (data, options) ->
 
       # Get access to `req`, `res`, & `sails`
@@ -74,5 +72,3 @@ automatically.
               sails.log.warn "res.notFound() :: When attempting to render error page view, an error occured (sending JSON instead).  Details: ", err
             return res.jsonx(data)
           res.send html
-
-```

@@ -1,6 +1,6 @@
 
-Cross-Origin Resource Sharing (CORS) Settings
-=============================================
+# Cross-Origin Resource Sharing (CORS) Settings
+
 (sails.config.cors)
 
 CORS is like a more modern version of JSONP -- it allows your server/API

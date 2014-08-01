@@ -1,6 +1,6 @@
 
-Bootstrap
-=========
+# Bootstrap
+
 (sails.config.bootstrap)
 
 An asynchronous bootstrap function that runs before your Sails app gets lifted.

@@ -1,6 +1,6 @@
 
-Global Variable Configuration
-=============================
+# Global Variable Configuration
+
 (sails.config.globals)
 
 Configure which global variables which will be exposed

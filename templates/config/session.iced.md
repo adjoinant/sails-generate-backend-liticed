@@ -1,6 +1,6 @@
 
-Session Configuration
-=====================
+# Session Configuration
+
 (sails.config.session)
 
 Sails session integration leans heavily on the great work already done by

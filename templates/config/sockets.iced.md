@@ -1,6 +1,6 @@
 
-WebSocket Server Settings
-=========================
+# WebSocket Server Settings
+
 (sails.config.sockets)
 
 These settings provide transparent access to the options for Sails'
@@ -23,8 +23,7 @@ This custom onDisconnect function will be run each time a socket disconnects
 
       onDisconnect: (session, socket) ->
 
-`transports`
-------------
+## `transports`
 
 A array of allowed transport methods which the clients will try to use.
 The flashsocket transport is disabled by default
@@ -67,8 +66,8 @@ Worth mentioning is that, if `adapter` config is `redis`,
 but host/port is left unset, Sails will try to connect to redis
 running on localhost via port 6379
 
-`authorization`
----------------
+## `authorization`
+
 Global authorization for Socket.IO access,
 this is called when the initial handshake is performed with the server.
 

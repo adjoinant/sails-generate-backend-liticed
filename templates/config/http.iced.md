@@ -1,6 +1,6 @@
 
-HTTP Server Settings
-====================
+# HTTP Server Settings
+
 (sails.config.http)
 
 Configuration for the underlying HTTP server in Sails.

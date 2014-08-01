@@ -1,6 +1,6 @@
 
-Connections
-===========
+# Connections
+
 (sails.config.connections)
 
 `Connections` are like "saved settings" for your adapters.  What's the difference between

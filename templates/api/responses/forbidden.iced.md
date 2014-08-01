@@ -1,9 +1,8 @@
 
-403 (Forbidden) Handler
-=======================
+# The 403 (Forbidden) Handler
 
-Usage:
-------
+## Usage:
+
 + `return res.forbidden()`
 + `return res.forbidden err `
 + `return res.forbidden err, 'some/specific/forbidden/view'`
@@ -11,7 +10,6 @@ Usage:
 e.g.:
 `return res.forbidden 'Access denied.'`
 
-```coffee
     module.exports = forbidden = (data, options) ->
 
       # Get access to `req`, `res`, & `sails`
@@ -69,5 +67,3 @@ e.g.:
               sails.log.warn "res.forbidden() :: When attempting to render error page view, an error occured (sending JSON instead).  Details: ", err
             return res.jsonx(data)
           res.send html
-
-```

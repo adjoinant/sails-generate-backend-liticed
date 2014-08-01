@@ -1,6 +1,6 @@
 
-Cross-Site Request Forgery Protection Settings
-==============================================
+# Cross-Site Request Forgery Protection Settings
+
 (sails.config.csrf)
 
 CSRF tokens are like a tracking chip.  While a session tells the server that a user
@@ -40,4 +40,4 @@ In AJAX/Socket-heavy apps, just send a GET request to the /csrfToken route to ge
 For more information on CSRF, check out:
 http://en.wikipedia.org/wiki/Cross-site_request_forgery
 
-    module.exports.csrf = false
+    module.exports.csrf = off

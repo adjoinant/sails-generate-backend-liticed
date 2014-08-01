@@ -1,6 +1,6 @@
 
-Policy Mappings
-===============
+# Policy Mappings
+
 (sails.config.policies)
 
 Policies are simple functions which run **before** your controllers.

@@ -1,9 +1,8 @@
 
-500 (Server Error) Response
-===========================
+# The 500 (Server Error) Response
 
-Usage:
-------
+## Usage:
+
 + `return res.serverError()`
 + `return res.serverError err`
 + `return res.serverError err, 'some/specific/error/view'`
@@ -13,7 +12,6 @@ If something throws in a policy or controller, or an internal
 error is encountered, Sails will call `res.serverError()`
 automatically.
 
-```coffee
     module.exports = serverError = (data, options) ->
 
       # Get access to `req`, `res`, & `sails`
@@ -70,5 +68,3 @@ automatically.
               sails.log.warn "res.serverError() :: When attempting to render error page view, an error occured (sending JSON instead).  Details: ", err
             return res.jsonx(data)
           res.send html
-
-```

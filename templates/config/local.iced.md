@@ -1,6 +1,5 @@
 
-Local environment settings
-==========================
+# Local environment settings
 
 While you're DEVELOPING your app, this config file should include
 any settings specifically for your development computer (db passwords, etc.)

@@ -1,6 +1,6 @@
 
-Built-in Log Configuration
-==========================
+# Built-in Log Configuration
+
 (sails.config.log)
 
 Configure the log level for your app, as well as the transport
