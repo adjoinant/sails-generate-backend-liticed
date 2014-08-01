@@ -9,10 +9,9 @@ Usage:
 + `return res.forbidden err, 'some/specific/forbidden/view'`
 
 e.g.:
-```
-return res.forbidden 'Access denied.'
-```
+`return res.forbidden 'Access denied.'`
 
+```coffee
     module.exports = forbidden = (data, options) ->
 
       # Get access to `req`, `res`, & `sails`
@@ -71,3 +70,4 @@ return res.forbidden 'Access denied.'
             return res.jsonx(data)
           res.send html
 
+```

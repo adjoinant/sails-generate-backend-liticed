@@ -9,16 +9,14 @@ Usage:
 + `return res.notFound err, 'some/specific/notfound/view'`
 
 e.g.:
-```
-return res.notFound()
-```
+`return res.notFound()`
 
 NOTE:
 If a request doesn't match any explicit routes (i.e. `config/routes.js`)
 or route blueprints (i.e. "shadow routes", Sails will call `res.notFound()`
 automatically.
 
-
+```coffee
     module.exports = notFound = (data, options) ->
 
       # Get access to `req`, `res`, & `sails`
@@ -77,3 +75,4 @@ automatically.
             return res.jsonx(data)
           res.send html
 
+```

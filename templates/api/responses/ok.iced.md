@@ -11,6 +11,7 @@ Usage:
 param  {Object} data
 param  {String|Object} options
 
+```coffee
     module.exports = sendOK = (data, options) ->
 
       req = @req
@@ -42,3 +43,4 @@ param  {String|Object} options
         , couldNotGuessView = ->
           res.jsonx data
 
+```

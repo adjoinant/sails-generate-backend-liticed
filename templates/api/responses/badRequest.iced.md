@@ -9,11 +9,9 @@ Usage:
 + `return res.badRequest(data, 'some/specific/badRequest/view');`
 
 e.g.:
-```
-return res.badRequest 'Please choose a valid `password` (6-12 characters)', 'trial/signup'
-```
+`return res.badRequest 'Please choose a valid password (6-12 characters)', 'trial/signup'`
 
-
+```coffee
     module.exports = badRequest = (data, options) ->
 
       # Get access to `req`, `res`, & `sails`
@@ -58,3 +56,4 @@ return res.badRequest 'Please choose a valid `password` (6-12 characters)', 'tri
         , couldNotGuessView = ->
           res.jsonx data
 
+```

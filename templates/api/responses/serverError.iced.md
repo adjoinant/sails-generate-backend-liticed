@@ -13,6 +13,7 @@ If something throws in a policy or controller, or an internal
 error is encountered, Sails will call `res.serverError()`
 automatically.
 
+```coffee
     module.exports = serverError = (data, options) ->
 
       # Get access to `req`, `res`, & `sails`
@@ -48,7 +49,6 @@ automatically.
         res.view options.view,
           data: data
 
-
       # If no second argument provided, try to serve the default view,
       # but fall back to sending JSON(P) if any errors occur.
       else
@@ -71,3 +71,4 @@ automatically.
             return res.jsonx(data)
           res.send html
 
+```
